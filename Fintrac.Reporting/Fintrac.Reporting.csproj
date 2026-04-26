@@ -4,6 +4,21 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>Fintrac.Reporting</PackageId>
+        <Version>0.0.1-preview</Version>
+        <Authors>Krishna</Authors>
+        <Company>KN</Company>
+        <Description>Unofficial utility for simplifying FINTRAC electronic reporting in Canada.</Description>
+        <PackageProjectUrl>https://github.com/krishnaknagalla/Fintrac.Reporting</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/krishnaknagalla/Fintrac.Reporting</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Fintrac;EFTR;Canada;Finance;Reporting;Compliance</PackageTags>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 </Project>
